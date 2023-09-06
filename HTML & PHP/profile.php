@@ -32,6 +32,7 @@ if ($result && mysqli_num_rows($result) > 0) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
+    <script src="https://kit.fontawesome.com/b21ac06503.js" crossorigin="anonymous"></script>
     <title>Profile</title>
     <style>
         body {
@@ -44,7 +45,7 @@ if ($result && mysqli_num_rows($result) > 0) {
         .profile {
             text-align: center;
             margin: 50px auto;
-            padding: 20px;
+            padding: 50px;
             background-color: white;
             border: 1px solid #ccc;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -79,6 +80,8 @@ if ($result && mysqli_num_rows($result) > 0) {
 
 <body>
     <div class="profile">
+        <a href=""></a><i class="fa-solid fa-user fa-2xl"></i></a><br>
+        <br><br>
         <h1><?php echo $name; ?></h1>
         <p>Email: <?php echo $email; ?></p>
     </div>

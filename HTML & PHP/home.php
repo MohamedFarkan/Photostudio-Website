@@ -48,7 +48,7 @@ if (!isset($_SESSION["user"])) {
                 <div class="dropdown-menu">
                     <li>
                         <a><button class="menu-btn">
-                                <i class="fa-solid fa-user fa-2xs"></i>
+                                <i class="fa-solid fa-user fa-xl"></i>
                                 <i class="fa-solid fa-chevron-down" id="dowm"></i></button></a>
                     </li>
                     <div class="menu-content">

@@ -32,18 +32,18 @@ if (!isset($_SESSION["user"])) {
                                 <i class="fa-solid fa-chevron-down" id="dowm"></i></button></a>
                     </li>
                     <div class="menu-content">
-                        <a class="links-hidden" href="http://127.0.0.1:5500/wed.html" target="_blank">Wedding Photography</a>
+                        <a class="links-hidden" href="http://localhost/Photostudio_Website/HTML%20&%20PHP/wed.html" target="_blank">Wedding Photography</a>
                         <hr />
-                        <a class="links-hidden" href="http://127.0.0.1:5500/nature.html" target="_blank">Nature Photography</a>
+                        <a class="links-hidden" href="http://localhost/Photostudio_Website/HTML%20&%20PHP/nature.html" target="_blank">Nature Photography</a>
                         <hr />
-                        <a class="links-hidden" href="http://127.0.0.1:5500/tour.html" target="_blank">Tourism Photography</a>
+                        <a class="links-hidden" href="http://localhost/Photostudio_Website/HTML%20&%20PHP/tour.html" target="_blank">Tourism Photography</a>
                     </div>
                 </div>
                 <li><a href="#services">Services</a></li>
                 <li>
-                    <a href="http://localhost/begin_php/booking.php" target="_blank">Book Now</a>
+                    <a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/booking.php" target="_blank">Book Now</a>
                 </li>
-                <li><a href="http://localhost/begin_php/package.php" target="_blank">Packages</a></li>
+                <li><a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/package.php" target="_blank">Packages</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <div class="dropdown-menu">
                     <li>

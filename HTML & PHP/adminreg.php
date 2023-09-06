@@ -93,7 +93,7 @@ if (isset($_SESSION["user"])) {
             <button type="submit" name="submit" class="btn">Register</button>
         </form>
         <div class="social-links">
-            <h5>Aleary have an account?</h5><a href="http://localhost/begin_php/adminlog.php">Login as Admin</a>
+            <h5>Aleary have an account?</h5><a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/adminlog.php">Login as Admin</a>
         </div>
     </div>
 

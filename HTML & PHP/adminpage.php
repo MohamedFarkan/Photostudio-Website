@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION["user"])) {
-    header("Location: adminpage.php");
+    header("Location: adminlog.php");
 }
 include 'data.php'; // Include the database connection
 
@@ -97,7 +97,7 @@ if ($result && mysqli_num_rows($result) > 0) {
                     <br><br>
                     <h1>Total Users : <?php echo $email1; ?></h1>
                     <br>
-                    <a href="http://localhost/begin_php/user_info.php" target="_blank"><i class="fa-solid fa-up-right-from-square fa-2xl"></i></a>
+                    <a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/user_info.php" target="_blank"><i class="fa-solid fa-up-right-from-square fa-2xl"></i></a>
                 </div>
                 <div class="no_package">
                     <h2>
@@ -108,7 +108,7 @@ if ($result && mysqli_num_rows($result) > 0) {
                     <h1>Total Packages : <?php echo $pack; ?></h1>
                     <br>
 
-                    <a href="http://localhost/begin_php/package2.php" target="_blank"><i class="fa-solid fa-up-right-from-square fa-2xl"></i></a>
+                    <a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/package2.php" target="_blank"><i class="fa-solid fa-up-right-from-square fa-2xl"></i></a>
                 </div>
                 <div class="no_booking">
                     <h2>
@@ -118,7 +118,7 @@ if ($result && mysqli_num_rows($result) > 0) {
                     <h1>Total Bookings : <?php echo $email2; ?></h1>
                     <br>
 
-                    <a href="http://localhost/begin_php/booking_info.php" target="_blank"><i class="fa-solid fa-up-right-from-square fa-2xl"></i></a>
+                    <a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/booking_info.php" target="_blank"><i class="fa-solid fa-up-right-from-square fa-2xl"></i></a>
                 </div>
             </div>
         </div>

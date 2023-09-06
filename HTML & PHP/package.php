@@ -52,7 +52,7 @@ $result = mysqli_query($conn, $query);
                 <h3>Package Name :<?php echo $row['package_name']; ?></h3>
                 <p>Includes :<?php echo $row['package_includes']; ?></p>
                 <p>Price: <i class="fa-solid fa-indian-rupee-sign"> <?php echo $row['price_of_package']; ?></i></p>
-                <a href="http://localhost/begin_php/booking.php" target="_blank"><button class="btn">Book Now</button></a>
+                <a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/booking.php" target="_blank"><button class="btn">Book Now</button></a>
             </div>
         <?php
         }

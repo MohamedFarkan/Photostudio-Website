@@ -51,7 +51,7 @@
                 if ($preparestmt) {
                     mysqli_stmt_bind_param($stmt, "sssssss", $fullname, $email, $date, $phone, $services, $packages, $message);
                     mysqli_stmt_execute($stmt);
-                    header("Location: /begin_php/book_success.php");
+                    header("Location: book_success.php");
                 } else {
                     die("Something went wrong");
                 }

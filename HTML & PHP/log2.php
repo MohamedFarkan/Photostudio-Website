@@ -55,8 +55,8 @@ if (isset($_SESSION["user"])) {
             <button type="submit" name="login" class="btn">Login</button>
         </form>
         <div class="social-links">
-            <h5>New User?</h5> <a href="http://localhost/begin_php/signup2.php">Register</a>
-            <a href="http://localhost/begin_php/adminlog.php">Admin Login</a>
+            <h5>New User?</h5> <a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/signup2.php">Register</a>
+            <a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/adminlog.php">Admin Login</a>
         </div>
     </div>
 </body>

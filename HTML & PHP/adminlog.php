@@ -55,7 +55,7 @@ if (isset($_SESSION["user"])) {
             <button type="submit" name="login" class="btn">Login</button>
         </form>
         <div class="social-links">
-            <h5>New Admin?</h5> <a href="http://localhost/begin_php/adminreg.php">Admin Register</a>
+            <h5>New Admin?</h5> <a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/adminreg.php">Admin Register</a>
 
         </div>
     </div>

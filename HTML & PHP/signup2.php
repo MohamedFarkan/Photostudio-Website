@@ -87,7 +87,7 @@
             <button type="submit" name="submit" class="btn">Register</button>
         </form>
         <div class="social-links">
-            <h5>Aleary have an account?</h5><a href="http://localhost/begin_php/log2.php">Login</a>
+            <h5>Aleary have an account?</h5><a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/log2.php">Login</a>
         </div>
     </div>
 

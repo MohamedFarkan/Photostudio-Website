@@ -14,8 +14,8 @@
             <h1>Booking Successful</h1>
             <h2>Thank You for choosing our services</h2>
             <h3>Our team will contact you soon....</h3>
-            <button class="btn"><a href="http://localhost/begin_php/booking.php">Back to booking page</a></button>
-            <button class="btn"><a href="http://localhost/begin_php/home.php">Back to home page</a></button>
+            <button class="btn"><a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/booking.php">Back to booking page</a></button>
+            <button class="btn"><a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/home.php">Back to home page</a></button>
         </div>
 
     </div>

@@ -64,7 +64,7 @@ $result = mysqli_query($conn, $query);
                         ?>
 
                         </table>
-                        <a href="http://localhost/begin_php/addpack.php" target="_blank" class="btn btn-success">Add Package <i class="fa-solid fa-plus"></i></a>
+                        <a href="http://localhost/Photostudio_Website/HTML%20&%20PHP/addpack.php" target="_blank" class="btn btn-success">Add Package <i class="fa-solid fa-plus"></i></a>
 
                     </div>
                 </div>

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  .profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .profile-container h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  .profile-container img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .profile-container p {
+    margin: 0;
+    padding: 5px 0;
+    font-weight: bold;
+  }
+  .profile-container .email {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }

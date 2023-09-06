@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.container{
+    color: #5cb85c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container .head{
+    background-color: #f7f7f7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: whitesmoke 0px 1px 3px 0px,whitesmoke 0px 1px 2px 0px;
+}
+.container .head button{
+    background-color: #0275d8;
+    border: none;
+height: 30px;
+width: 200px;
+}
+.container .head button a{
+    text-decoration: none;
+    color:white;
+}

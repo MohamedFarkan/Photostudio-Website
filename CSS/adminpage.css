@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,200;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'poppins', serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+body {
+    width: 100%;
+    height: 100;
+    background:black;
+    color: white;
+    overflow-x:hidden;
+}
+.container {
+    padding: 10px 20px;
+
+}
+.container nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+    background-color: black;
+}
+
+.container nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 25px;
+    color: white;
+}
+.container nav ul li a {
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+
+    color: white;
+    position: relative;
+}
+
+.container nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff0045;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.container nav ul li a:hover::after {
+    width: 100%;
+}
+
+.container nav ul li a:hover {
+    transform: translate(0, -10px);
+    position: relative;
+}
+/*-----------------User details--------------*/
+.user_detail_list {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 70px;
+    margin-left: 30px;
+
+}
+.user_detail_list div{
+    background: #ff0045;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    margin-right: 50px;
+    transition: background 0.5s, transform 0.5s;
+    border-radius: 10px;
+}
+.user_detail_list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.user_detail_list div:hover {
+    background: red;
+    color: black;
+    transform: translate(0, -10px);
+}
+.user_detail_list a i{
+    text-decoration: none;
+    color: black;
+}

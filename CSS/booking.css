@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: black;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #DC3545;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #262626;
+    color: #fff;
+    font-size: 17px;
+    
+}
+input:hover{
+    -webkit-box-shadow: 0px 0px 13px 7px #ff004f;
+    -moz-box-shadow: 0px 0px 13px 7px #ff004f;
+    box-shadow: 0px 0px 13px 7px #ff004f;
+}
+textarea:hover {
+    -webkit-box-shadow: 0px 0px 13px 7px #ff004f;
+    -moz-box-shadow: 0px 0px 13px 7px #ff004f;
+    box-shadow: 0px 0px 13px 7px #ff004f;
+
+}
+textarea{
+    background: #262626;
+    font-size: 17px;
+}
+select:hover{
+    -webkit-box-shadow: 0px 0px 9px 7px #ff004f;
+    -moz-box-shadow: 0px 0px 9px 7px #ff004f;
+    box-shadow: 0px 0px 9px 7px #ff004f;
+}
+select{
+    width: 105%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #262626;
+    font-size: 17px;
+}
+
+.book {
+    background-color:blue;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+.book:hover{
+    border-radius: 50px;
+    background-color: lightskyblue;
+    -webkit-box-shadow: 0px 0px 13px 7px rgba(30, 158, 204, 0.64);
+    -moz-box-shadow: 0px 0px 13px 7px rgba(22, 181, 239, 0.64);
+    box-shadow: 0px 0px 13px 7px rgba(30, 158, 204, 0.64);
+    
+}
+.refresh {
+    background-color:red;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 20%;
+}
+.refresh:hover{
+    border-radius: 50px;
+    background-color:#DC3545;
+
+}
+hr{
+    margin-top: 20px;
+}
+
+.message {
+
+    
+    padding: 10px;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form{
+    border: black;
+}

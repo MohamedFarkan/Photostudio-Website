@@ -3,7 +3,7 @@ session_start();
 if (!isset($_SESSION["user"])) {
     header("Location: adminlog.php");
 }
-include 'data3.php';
+include 'data.php';
 $id = $_GET['deleteid'];
 if (isset($_GET['deleteid'])) {
 

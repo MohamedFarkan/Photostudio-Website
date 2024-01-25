@@ -45,7 +45,7 @@ if (isset($_SESSION["user"])) {
             if ($password !== $cpass) {
                 array_push($errors, "Password does not match");
             }
-            require_once "data3.php";
+            require_once "data.php";
             $sql = "SELECT * FROM admin_details WHERE email='$email'";
             $result = mysqli_query($conn, $sql);
             $rowcount = mysqli_num_rows($result);

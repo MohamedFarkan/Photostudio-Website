@@ -4,7 +4,7 @@ if (!isset($_SESSION["user"])) {
     header("Location: adminlog.php");
 }
 
-include 'data3.php';
+include 'data.php';
 $query = "SELECT * FROM add_package";
 $result = mysqli_query($conn, $query);
 ?>

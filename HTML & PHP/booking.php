@@ -33,7 +33,7 @@
             if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
                 array_push($errors, "Enter a valid Email");
             }
-            require_once "data2.php";
+            require_once "data.php";
             $sql = "SELECT * FROM booking_details WHERE email='$email'";
             $result = mysqli_query($conn, $sql);
             $rowcount = mysqli_num_rows($result);

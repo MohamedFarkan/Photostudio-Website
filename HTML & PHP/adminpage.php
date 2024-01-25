@@ -19,7 +19,7 @@ if ($result && mysqli_num_rows($result) > 0) {
     echo "User count not found!";
 }
 
-include 'data2.php'; // Include the database connection
+include 'data.php'; // Include the database connection
 
 
 $email = $_SESSION['user'];
@@ -35,7 +35,7 @@ if ($result && mysqli_num_rows($result) > 0) {
     echo "User count not found!";
 }
 
-include 'data3.php'; // Include the database connection
+include 'data.php'; // Include the database connection
 
 
 $email = $_SESSION['user'];

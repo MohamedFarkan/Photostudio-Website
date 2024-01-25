@@ -4,7 +4,7 @@ if (!isset($_SESSION["user"])) {
     header("Location: log2.php");
 }
 
-include 'data3.php'; // Include the database connection
+include 'data.php'; // Include the database connection
 
 
 

@@ -2,7 +2,7 @@
 $hostname = "localhost";
 $dbuser = "root";
 $dbpassword = "";
-$dbname = "login_register";
+$dbname = "photo_studio";
 $conn = mysqli_connect($hostname, $dbuser, $dbpassword, $dbname);
 if (!$conn) {
     die("Something went wrong☹️");

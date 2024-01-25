@@ -22,7 +22,7 @@ if (isset($_SESSION["user"])) {
         if (isset($_POST["login"])) {
             $email = $_POST["email"];
             $password = $_POST["password"];
-            require_once "data3.php";
+            require_once "data.php";
             $sql = "SELECT * FROM admin_details WHERE email='$email'";
             $result = mysqli_query($conn, $sql);
             $user = mysqli_fetch_array($result, MYSQLI_ASSOC);

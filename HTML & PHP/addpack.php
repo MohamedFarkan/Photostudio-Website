@@ -26,7 +26,7 @@ if (!isset($_SESSION["user"])) {
 
             $errors = array();
 
-            require_once "data3.php";
+            require_once "data.php";
             $sql = "SELECT * FROM add_package WHERE package_name='$pname'";
             $result = mysqli_query($conn, $sql);
             $rowcount = mysqli_num_rows($result);
